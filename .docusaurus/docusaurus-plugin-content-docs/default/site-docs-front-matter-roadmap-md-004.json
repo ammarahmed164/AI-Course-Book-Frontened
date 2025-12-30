@@ -1,0 +1,27 @@
+{
+  "id": "front-matter/roadmap",
+  "title": "roadmap",
+  "description": "Course Structure",
+  "source": "@site/docs/front-matter/roadmap.md",
+  "sourceDirName": "front-matter",
+  "slug": "/front-matter/roadmap",
+  "permalink": "/physical-ai-textbook/docs/front-matter/roadmap",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/front-matter/roadmap.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "outcomes",
+    "permalink": "/physical-ai-textbook/docs/front-matter/outcomes"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/physical-ai-textbook/docs/module-1/"
+  }
+}

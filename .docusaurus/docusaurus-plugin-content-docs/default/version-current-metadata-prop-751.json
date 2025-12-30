@@ -1,0 +1,443 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "Front Matter",
+        "items": [
+          {
+            "type": "link",
+            "label": "index",
+            "href": "/physical-ai-textbook/docs/front-matter/",
+            "docId": "front-matter/index",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "intro",
+            "href": "/physical-ai-textbook/docs/front-matter/intro",
+            "docId": "front-matter/intro",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "motivation",
+            "href": "/physical-ai-textbook/docs/front-matter/motivation",
+            "docId": "front-matter/motivation",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "outcomes",
+            "href": "/physical-ai-textbook/docs/front-matter/outcomes",
+            "docId": "front-matter/outcomes",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "roadmap",
+            "href": "/physical-ai-textbook/docs/front-matter/roadmap",
+            "docId": "front-matter/roadmap",
+            "unlisted": false
+          }
+        ],
+        "collapsed": false,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Module 1: Robotic Nervous System (ROS 2)",
+        "items": [
+          {
+            "type": "link",
+            "label": "index",
+            "href": "/physical-ai-textbook/docs/module-1/",
+            "docId": "module-1/index",
+            "unlisted": false
+          },
+          {
+            "type": "category",
+            "label": "Chapter 1: ROS 2 Architecture",
+            "items": [
+              {
+                "type": "link",
+                "label": "index",
+                "href": "/physical-ai-textbook/docs/module-1/chapter-1/",
+                "docId": "module-1/chapter-1/index",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Chapter 2: Nodes, Topics, Services, and Actions",
+            "items": [
+              {
+                "type": "link",
+                "label": "index",
+                "href": "/physical-ai-textbook/docs/module-1/chapter-2/",
+                "docId": "module-1/chapter-2/index",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Chapter 3: Python rclpy, URDF Modeling, and Package & Launch Workflows",
+            "items": [
+              {
+                "type": "link",
+                "label": "index",
+                "href": "/physical-ai-textbook/docs/module-1/chapter-3/",
+                "docId": "module-1/chapter-3/index",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          }
+        ],
+        "collapsed": false,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Module 2: Digital Twin (Gazebo & Unity)",
+        "items": [
+          {
+            "type": "link",
+            "label": "index",
+            "href": "/physical-ai-textbook/docs/module-2/",
+            "docId": "module-2/index",
+            "unlisted": false
+          },
+          {
+            "type": "category",
+            "label": "Chapter 1: Physics Simulation",
+            "items": [
+              {
+                "type": "link",
+                "label": "index",
+                "href": "/physical-ai-textbook/docs/module-2/chapter-1/",
+                "docId": "module-2/chapter-1/index",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Chapter 2: Sensor Simulation",
+            "items": [
+              {
+                "type": "link",
+                "label": "index",
+                "href": "/physical-ai-textbook/docs/module-2/chapter-2/",
+                "docId": "module-2/chapter-2/index",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Chapter 3: Unity Visualization & HRI",
+            "items": [
+              {
+                "type": "link",
+                "label": "index",
+                "href": "/physical-ai-textbook/docs/module-2/chapter-3/",
+                "docId": "module-2/chapter-3/index",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Module 3: AI-Robot Brain (NVIDIA Isaac)",
+        "items": [
+          {
+            "type": "link",
+            "label": "index",
+            "href": "/physical-ai-textbook/docs/module-3/",
+            "docId": "module-3/index",
+            "unlisted": false
+          },
+          {
+            "type": "category",
+            "label": "Chapter 1: Isaac Sim Setup",
+            "items": [
+              {
+                "type": "link",
+                "label": "index",
+                "href": "/physical-ai-textbook/docs/module-3/chapter-1/",
+                "docId": "module-3/chapter-1/index",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Chapter 2: ROS Pipelines for Perception/VSLAM",
+            "items": [
+              {
+                "type": "link",
+                "label": "index",
+                "href": "/physical-ai-textbook/docs/module-3/chapter-2/",
+                "docId": "module-3/chapter-2/index",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Chapter 3: Hardware-Accelerated Navigation",
+            "items": [
+              {
+                "type": "link",
+                "label": "index",
+                "href": "/physical-ai-textbook/docs/module-3/chapter-3/",
+                "docId": "module-3/chapter-3/index",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Module 4: Vision-Language-Action (VLA)",
+        "items": [
+          {
+            "type": "link",
+            "label": "index",
+            "href": "/physical-ai-textbook/docs/module-4/",
+            "docId": "module-4/index",
+            "unlisted": false
+          },
+          {
+            "type": "category",
+            "label": "Chapter 1: LLMs in Robotics",
+            "items": [
+              {
+                "type": "link",
+                "label": "index",
+                "href": "/physical-ai-textbook/docs/module-4/chapter-1/",
+                "docId": "module-4/chapter-1/index",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Chapter 2: Voice-to-Action Systems",
+            "items": [
+              {
+                "type": "link",
+                "label": "index",
+                "href": "/physical-ai-textbook/docs/module-4/chapter-2/",
+                "docId": "module-4/chapter-2/index",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Chapter 3: Multi-modal Perception",
+            "items": [
+              {
+                "type": "link",
+                "label": "index",
+                "href": "/physical-ai-textbook/docs/module-4/chapter-3/",
+                "docId": "module-4/chapter-3/index",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "link",
+        "label": "Capstone: Autonomous Humanoid Robot",
+        "href": "/physical-ai-textbook/docs/capstone/",
+        "docId": "capstone/index",
+        "unlisted": false
+      }
+    ]
+  },
+  "docs": {
+    "capstone/index": {
+      "id": "capstone/index",
+      "title": "index",
+      "description": "Project Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "front-matter/index": {
+      "id": "front-matter/index",
+      "title": "index",
+      "description": "Welcome to the front matter section of the Physical AI & Humanoid Robotics Textbook.",
+      "sidebar": "tutorialSidebar"
+    },
+    "front-matter/intro": {
+      "id": "front-matter/intro",
+      "title": "intro",
+      "description": "Welcome to the Future of Robotics Education",
+      "sidebar": "tutorialSidebar"
+    },
+    "front-matter/motivation": {
+      "id": "front-matter/motivation",
+      "title": "motivation",
+      "description": "The Limitations of Digital-Only AI",
+      "sidebar": "tutorialSidebar"
+    },
+    "front-matter/outcomes": {
+      "id": "front-matter/outcomes",
+      "title": "outcomes",
+      "description": "By completing this textbook, you will be able to:",
+      "sidebar": "tutorialSidebar"
+    },
+    "front-matter/README": {
+      "id": "front-matter/README",
+      "title": "README",
+      "description": "Overview"
+    },
+    "front-matter/roadmap": {
+      "id": "front-matter/roadmap",
+      "title": "roadmap",
+      "description": "Course Structure",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-1/chapter-1/index": {
+      "id": "module-1/chapter-1/index",
+      "title": "index",
+      "description": "Learning Objectives",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-1/chapter-2/index": {
+      "id": "module-1/chapter-2/index",
+      "title": "index",
+      "description": "Learning Objectives",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-1/chapter-3/index": {
+      "id": "module-1/chapter-3/index",
+      "title": "index",
+      "description": "Learning Objectives",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-1/index": {
+      "id": "module-1/index",
+      "title": "index",
+      "description": "This module covers the fundamentals of the robotic nervous system using ROS 2.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-2/chapter-1/index": {
+      "id": "module-2/chapter-1/index",
+      "title": "index",
+      "description": "Learning Objectives",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-2/chapter-2/index": {
+      "id": "module-2/chapter-2/index",
+      "title": "index",
+      "description": "Learning Objectives",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-2/chapter-3/index": {
+      "id": "module-2/chapter-3/index",
+      "title": "index",
+      "description": "Learning Objectives",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-2/index": {
+      "id": "module-2/index",
+      "title": "index",
+      "description": "This module explores digital twin technologies for robotics using Gazebo and Unity.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-3/chapter-1/index": {
+      "id": "module-3/chapter-1/index",
+      "title": "index",
+      "description": "Learning Objectives",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-3/chapter-2/index": {
+      "id": "module-3/chapter-2/index",
+      "title": "index",
+      "description": "Learning Objectives",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-3/chapter-3/index": {
+      "id": "module-3/chapter-3/index",
+      "title": "index",
+      "description": "Learning Objectives",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-3/index": {
+      "id": "module-3/index",
+      "title": "index",
+      "description": "This module covers the AI-powered brain of the robot using NVIDIA Isaac platforms.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-4/chapter-1/index": {
+      "id": "module-4/chapter-1/index",
+      "title": "index",
+      "description": "Learning Objectives",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-4/chapter-2/index": {
+      "id": "module-4/chapter-2/index",
+      "title": "index",
+      "description": "Learning Objectives",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-4/chapter-3/index": {
+      "id": "module-4/chapter-3/index",
+      "title": "index",
+      "description": "Learning Objectives",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-4/index": {
+      "id": "module-4/index",
+      "title": "index",
+      "description": "This module focuses on Vision-Language-Action systems for complex robotic behaviors.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

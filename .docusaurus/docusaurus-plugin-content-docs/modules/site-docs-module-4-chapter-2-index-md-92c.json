@@ -1,0 +1,23 @@
+{
+  "id": "module-4/chapter-2/index",
+  "title": "index",
+  "description": "Learning Objectives",
+  "source": "@site/docs/module-4/chapter-2/index.md",
+  "sourceDirName": "module-4/chapter-2",
+  "slug": "/module-4/chapter-2/",
+  "permalink": "/physical-ai-textbook/docs/module-4/chapter-2/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "index",
+    "permalink": "/physical-ai-textbook/docs/module-4/chapter-1/"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/physical-ai-textbook/docs/module-4/chapter-3/"
+  }
+}

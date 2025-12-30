@@ -1,55 +1,44 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- SYNC IMPACT REPORT
+Version change: N/A (initial creation) -> 1.0.0
+Modified principles: N/A
+Added sections: Embodied Intelligence Focus, Technical Accuracy & Real-World Alignment, Reproducible Simulation-to-Real Pipeline, Industry-Grade Practices, Comprehensive Testing & Validation, Academic Excellence & RIGOR, Course-aligned Scope, RAG Chatbot Integration
+Removed sections: N/A
+Templates requiring updates: ⚠ pending (plan-template.md, spec-template.md, tasks-template.md, commands/*)
+Follow-up TODOs: None
+-->
+
+# Physical AI & Humanoid Robotics Textbook Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Embodied Intelligence Focus
+Physical AI systems must be grounded in real-world robotics applications; All theoretical concepts require practical implementation examples; Emphasis on embodied cognition over purely digital AI approaches.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Technical Accuracy & Real-World Alignment
+All technical descriptions must reflect actual robotics toolchains and workflows; No hallucinated APIs, hardware specifications, or robotic systems; Content must align with industry-standard implementations.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Reproducible Simulation-to-Real Pipeline
+Every simulation environment and deployment pipeline must be reproducible; Content must support both simulated learning and physical robot deployment; Steps must be executable and verifiable by readers.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Industry-Grade Practices
+All code examples and workflows must follow production-relevant practices; Use of professional development standards throughout; Preparation for real-world robotics engineering careers.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Comprehensive Testing & Validation
+All code examples and simulations must be executable and tested; Each chapter requires working examples; Technical content must be validated against actual robotics systems.
 
-### [PRINCIPLE_6_NAME]
+### VI. Academic Excellence & RIGOR
+Content must meet university-level educational standards; Clear separation between theoretical foundations, implementation details, and deployment considerations; Step-by-step explanations for complex simulations and pipelines.
 
+## Course-aligned Scope
 
-[PRINCIPLE__DESCRIPTION]
+The textbook supports a complete quarter-level university course covering Physical AI and Humanoid Robotics. The content includes ROS 2 middleware (nodes, topics, services, rclpy, URDF), digital twins and simulation (Gazebo, Unity), NVIDIA Isaac Sim and Isaac ROS, VSLAM, navigation, and humanoid motion (Nav2), Vision-Language-Action systems, voice-to-action using OpenAI Whisper, and concludes with a capstone: fully autonomous simulated humanoid robot.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## RAG Chatbot Integration
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+The textbook includes an integrated Retrieval-Augmented Generation chatbot that answers questions grounded strictly in book content. The chatbot must support user-selected text queries and be implemented using OpenAI Agents/ChatKit SDKs, FastAPI, Neon Serverless Postgres, and Qdrant Cloud.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution governs all project decisions and supersedes conflicting practices. Amendments require formal documentation, approval by core maintainers, and migration plans when applicable. All content must comply with zero plagiarism standards and static-site compatibility requirements. Each contribution must be verified for technical accuracy against real robotics systems.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-16 | **Last Amended**: 2025-12-16

@@ -1,0 +1,111 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 6rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #1a365d 0%, #2d5a87 100%);
+  color: white;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3rem 1rem;
+  }
+}
+
+.mainTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.mainSubtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rounded-pill {
+  border-radius: 50px;
+}
+
+.courseOverview {
+  padding: 5rem 0;
+  background-color: #f8f9fa;
+}
+
+.courseOverview h3 {
+  color: #1a365d;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.courseOverview p {
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+}
+
+.padding-vert--md {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.padding-top--lg {
+  padding-top: 3rem;
+}
+
+.col--offset-2 {
+  margin-left: calc(16.6666%); /* 2/12 of the container width */
+}
+
+/* Custom button styles */
+.button--outline.button--primary {
+  border: 2px solid #3182ce;
+  color: #3182ce;
+  background-color: transparent;
+}
+
+.button--outline.button--primary:hover {
+  background-color: #3182ce;
+  color: white;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 996px) {
+  .mainTitle {
+    font-size: 2rem;
+  }
+
+  .mainSubtitle {
+    font-size: 1.2rem;
+  }
+
+  .buttonGroup {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .col--offset-2 {
+    margin-left: 0;
+  }
+}

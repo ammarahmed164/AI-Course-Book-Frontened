@@ -1,0 +1,1634 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/physical-ai-textbook/docs",
+          "tagsPath": "/physical-ai-textbook/docs/tags",
+          "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs",
+          "editUrlLocalized": "https://github.com/your-organization/your-repo/edit/main/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "D:\\Specify Plus\\Hackatons\\Book Creation\\sidebars.js",
+          "contentPath": "D:\\Specify Plus\\Hackatons\\Book Creation\\docs",
+          "contentPathLocalized": "D:\\Specify Plus\\Hackatons\\Book Creation\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "id": "capstone/index",
+              "title": "index",
+              "description": "Project Overview",
+              "source": "@site/docs/capstone/index.md",
+              "sourceDirName": "capstone",
+              "slug": "/capstone/",
+              "permalink": "/physical-ai-textbook/docs/capstone/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/capstone/index.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-4/chapter-3/"
+              }
+            },
+            {
+              "id": "front-matter/index",
+              "title": "index",
+              "description": "Welcome to the front matter section of the Physical AI & Humanoid Robotics Textbook.",
+              "source": "@site/docs/front-matter/index.md",
+              "sourceDirName": "front-matter",
+              "slug": "/front-matter/",
+              "permalink": "/physical-ai-textbook/docs/front-matter/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/front-matter/index.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "intro",
+                "permalink": "/physical-ai-textbook/docs/front-matter/intro"
+              }
+            },
+            {
+              "id": "front-matter/intro",
+              "title": "intro",
+              "description": "Welcome to the Future of Robotics Education",
+              "source": "@site/docs/front-matter/intro.md",
+              "sourceDirName": "front-matter",
+              "slug": "/front-matter/intro",
+              "permalink": "/physical-ai-textbook/docs/front-matter/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/front-matter/intro.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/front-matter/"
+              },
+              "next": {
+                "title": "motivation",
+                "permalink": "/physical-ai-textbook/docs/front-matter/motivation"
+              }
+            },
+            {
+              "id": "front-matter/motivation",
+              "title": "motivation",
+              "description": "The Limitations of Digital-Only AI",
+              "source": "@site/docs/front-matter/motivation.md",
+              "sourceDirName": "front-matter",
+              "slug": "/front-matter/motivation",
+              "permalink": "/physical-ai-textbook/docs/front-matter/motivation",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/front-matter/motivation.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "intro",
+                "permalink": "/physical-ai-textbook/docs/front-matter/intro"
+              },
+              "next": {
+                "title": "outcomes",
+                "permalink": "/physical-ai-textbook/docs/front-matter/outcomes"
+              }
+            },
+            {
+              "id": "front-matter/outcomes",
+              "title": "outcomes",
+              "description": "By completing this textbook, you will be able to:",
+              "source": "@site/docs/front-matter/outcomes.md",
+              "sourceDirName": "front-matter",
+              "slug": "/front-matter/outcomes",
+              "permalink": "/physical-ai-textbook/docs/front-matter/outcomes",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/front-matter/outcomes.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "motivation",
+                "permalink": "/physical-ai-textbook/docs/front-matter/motivation"
+              },
+              "next": {
+                "title": "roadmap",
+                "permalink": "/physical-ai-textbook/docs/front-matter/roadmap"
+              }
+            },
+            {
+              "id": "front-matter/README",
+              "title": "README",
+              "description": "Overview",
+              "source": "@site/docs/front-matter/README.md",
+              "sourceDirName": "front-matter",
+              "slug": "/front-matter/",
+              "permalink": "/physical-ai-textbook/docs/front-matter/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/front-matter/README.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {}
+            },
+            {
+              "id": "front-matter/roadmap",
+              "title": "roadmap",
+              "description": "Course Structure",
+              "source": "@site/docs/front-matter/roadmap.md",
+              "sourceDirName": "front-matter",
+              "slug": "/front-matter/roadmap",
+              "permalink": "/physical-ai-textbook/docs/front-matter/roadmap",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/front-matter/roadmap.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "outcomes",
+                "permalink": "/physical-ai-textbook/docs/front-matter/outcomes"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-1/"
+              }
+            },
+            {
+              "id": "module-1/chapter-1/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-1/chapter-1/index.md",
+              "sourceDirName": "module-1/chapter-1",
+              "slug": "/module-1/chapter-1/",
+              "permalink": "/physical-ai-textbook/docs/module-1/chapter-1/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/module-1/chapter-1/index.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-1/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-1/chapter-2/"
+              }
+            },
+            {
+              "id": "module-1/chapter-2/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-1/chapter-2/index.md",
+              "sourceDirName": "module-1/chapter-2",
+              "slug": "/module-1/chapter-2/",
+              "permalink": "/physical-ai-textbook/docs/module-1/chapter-2/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/module-1/chapter-2/index.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-1/chapter-1/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-1/chapter-3/"
+              }
+            },
+            {
+              "id": "module-1/chapter-3/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-1/chapter-3/index.md",
+              "sourceDirName": "module-1/chapter-3",
+              "slug": "/module-1/chapter-3/",
+              "permalink": "/physical-ai-textbook/docs/module-1/chapter-3/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/module-1/chapter-3/index.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-1/chapter-2/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-2/"
+              }
+            },
+            {
+              "id": "module-1/index",
+              "title": "index",
+              "description": "This module covers the fundamentals of the robotic nervous system using ROS 2.",
+              "source": "@site/docs/module-1/index.md",
+              "sourceDirName": "module-1",
+              "slug": "/module-1/",
+              "permalink": "/physical-ai-textbook/docs/module-1/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/module-1/index.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "roadmap",
+                "permalink": "/physical-ai-textbook/docs/front-matter/roadmap"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-1/chapter-1/"
+              }
+            },
+            {
+              "id": "module-2/chapter-1/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-2/chapter-1/index.md",
+              "sourceDirName": "module-2/chapter-1",
+              "slug": "/module-2/chapter-1/",
+              "permalink": "/physical-ai-textbook/docs/module-2/chapter-1/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/module-2/chapter-1/index.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-2/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-2/chapter-2/"
+              }
+            },
+            {
+              "id": "module-2/chapter-2/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-2/chapter-2/index.md",
+              "sourceDirName": "module-2/chapter-2",
+              "slug": "/module-2/chapter-2/",
+              "permalink": "/physical-ai-textbook/docs/module-2/chapter-2/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/module-2/chapter-2/index.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-2/chapter-1/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-2/chapter-3/"
+              }
+            },
+            {
+              "id": "module-2/chapter-3/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-2/chapter-3/index.md",
+              "sourceDirName": "module-2/chapter-3",
+              "slug": "/module-2/chapter-3/",
+              "permalink": "/physical-ai-textbook/docs/module-2/chapter-3/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/module-2/chapter-3/index.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-2/chapter-2/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-3/"
+              }
+            },
+            {
+              "id": "module-2/index",
+              "title": "index",
+              "description": "This module explores digital twin technologies for robotics using Gazebo and Unity.",
+              "source": "@site/docs/module-2/index.md",
+              "sourceDirName": "module-2",
+              "slug": "/module-2/",
+              "permalink": "/physical-ai-textbook/docs/module-2/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/module-2/index.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-1/chapter-3/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-2/chapter-1/"
+              }
+            },
+            {
+              "id": "module-3/chapter-1/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-3/chapter-1/index.md",
+              "sourceDirName": "module-3/chapter-1",
+              "slug": "/module-3/chapter-1/",
+              "permalink": "/physical-ai-textbook/docs/module-3/chapter-1/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/module-3/chapter-1/index.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-3/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-3/chapter-2/"
+              }
+            },
+            {
+              "id": "module-3/chapter-2/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-3/chapter-2/index.md",
+              "sourceDirName": "module-3/chapter-2",
+              "slug": "/module-3/chapter-2/",
+              "permalink": "/physical-ai-textbook/docs/module-3/chapter-2/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/module-3/chapter-2/index.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-3/chapter-1/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-3/chapter-3/"
+              }
+            },
+            {
+              "id": "module-3/chapter-3/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-3/chapter-3/index.md",
+              "sourceDirName": "module-3/chapter-3",
+              "slug": "/module-3/chapter-3/",
+              "permalink": "/physical-ai-textbook/docs/module-3/chapter-3/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/module-3/chapter-3/index.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-3/chapter-2/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-4/"
+              }
+            },
+            {
+              "id": "module-3/index",
+              "title": "index",
+              "description": "This module covers the AI-powered brain of the robot using NVIDIA Isaac platforms.",
+              "source": "@site/docs/module-3/index.md",
+              "sourceDirName": "module-3",
+              "slug": "/module-3/",
+              "permalink": "/physical-ai-textbook/docs/module-3/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/module-3/index.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-2/chapter-3/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-3/chapter-1/"
+              }
+            },
+            {
+              "id": "module-4/chapter-1/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-4/chapter-1/index.md",
+              "sourceDirName": "module-4/chapter-1",
+              "slug": "/module-4/chapter-1/",
+              "permalink": "/physical-ai-textbook/docs/module-4/chapter-1/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/module-4/chapter-1/index.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-4/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-4/chapter-2/"
+              }
+            },
+            {
+              "id": "module-4/chapter-2/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-4/chapter-2/index.md",
+              "sourceDirName": "module-4/chapter-2",
+              "slug": "/module-4/chapter-2/",
+              "permalink": "/physical-ai-textbook/docs/module-4/chapter-2/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/module-4/chapter-2/index.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-4/chapter-1/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-4/chapter-3/"
+              }
+            },
+            {
+              "id": "module-4/chapter-3/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-4/chapter-3/index.md",
+              "sourceDirName": "module-4/chapter-3",
+              "slug": "/module-4/chapter-3/",
+              "permalink": "/physical-ai-textbook/docs/module-4/chapter-3/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/module-4/chapter-3/index.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-4/chapter-2/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/capstone/"
+              }
+            },
+            {
+              "id": "module-4/index",
+              "title": "index",
+              "description": "This module focuses on Vision-Language-Action systems for complex robotic behaviors.",
+              "source": "@site/docs/module-4/index.md",
+              "sourceDirName": "module-4",
+              "slug": "/module-4/",
+              "permalink": "/physical-ai-textbook/docs/module-4/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/module-4/index.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-3/chapter-3/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-4/chapter-1/"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "Front Matter",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "front-matter/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-matter/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-matter/motivation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-matter/outcomes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-matter/roadmap"
+                  }
+                ],
+                "collapsed": false,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 1: Robotic Nervous System (ROS 2)",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module-1/index"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 1: ROS 2 Architecture",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-1/chapter-1/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 2: Nodes, Topics, Services, and Actions",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-1/chapter-2/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 3: Python rclpy, URDF Modeling, and Package & Launch Workflows",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-1/chapter-3/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": false,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 2: Digital Twin (Gazebo & Unity)",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module-2/index"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 1: Physics Simulation",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-2/chapter-1/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 2: Sensor Simulation",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-2/chapter-2/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 3: Unity Visualization & HRI",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-2/chapter-3/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 3: AI-Robot Brain (NVIDIA Isaac)",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module-3/index"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 1: Isaac Sim Setup",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-3/chapter-1/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 2: ROS Pipelines for Perception/VSLAM",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-3/chapter-2/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 3: Hardware-Accelerated Navigation",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-3/chapter-3/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 4: Vision-Language-Action (VLA)",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module-4/index"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 1: LLMs in Robotics",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-4/chapter-1/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 2: Voice-to-Action Systems",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-4/chapter-2/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 3: Multi-modal Perception",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-4/chapter-3/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "doc",
+                "id": "capstone/index",
+                "label": "Capstone: Autonomous Humanoid Robot",
+                "translatable": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "modules": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/physical-ai-textbook/docs",
+          "tagsPath": "/physical-ai-textbook/docs/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "D:\\Specify Plus\\Hackatons\\Book Creation\\sidebars.js",
+          "contentPath": "D:\\Specify Plus\\Hackatons\\Book Creation\\docs",
+          "contentPathLocalized": "D:\\Specify Plus\\Hackatons\\Book Creation\\i18n\\en\\docusaurus-plugin-content-docs-modules\\current",
+          "docs": [
+            {
+              "id": "capstone/index",
+              "title": "index",
+              "description": "Project Overview",
+              "source": "@site/docs/capstone/index.md",
+              "sourceDirName": "capstone",
+              "slug": "/capstone/",
+              "permalink": "/physical-ai-textbook/docs/capstone/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-4/chapter-3/"
+              }
+            },
+            {
+              "id": "front-matter/index",
+              "title": "index",
+              "description": "Welcome to the front matter section of the Physical AI & Humanoid Robotics Textbook.",
+              "source": "@site/docs/front-matter/index.md",
+              "sourceDirName": "front-matter",
+              "slug": "/front-matter/",
+              "permalink": "/physical-ai-textbook/docs/front-matter/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "intro",
+                "permalink": "/physical-ai-textbook/docs/front-matter/intro"
+              }
+            },
+            {
+              "id": "front-matter/intro",
+              "title": "intro",
+              "description": "Welcome to the Future of Robotics Education",
+              "source": "@site/docs/front-matter/intro.md",
+              "sourceDirName": "front-matter",
+              "slug": "/front-matter/intro",
+              "permalink": "/physical-ai-textbook/docs/front-matter/intro",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/front-matter/"
+              },
+              "next": {
+                "title": "motivation",
+                "permalink": "/physical-ai-textbook/docs/front-matter/motivation"
+              }
+            },
+            {
+              "id": "front-matter/motivation",
+              "title": "motivation",
+              "description": "The Limitations of Digital-Only AI",
+              "source": "@site/docs/front-matter/motivation.md",
+              "sourceDirName": "front-matter",
+              "slug": "/front-matter/motivation",
+              "permalink": "/physical-ai-textbook/docs/front-matter/motivation",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "intro",
+                "permalink": "/physical-ai-textbook/docs/front-matter/intro"
+              },
+              "next": {
+                "title": "outcomes",
+                "permalink": "/physical-ai-textbook/docs/front-matter/outcomes"
+              }
+            },
+            {
+              "id": "front-matter/outcomes",
+              "title": "outcomes",
+              "description": "By completing this textbook, you will be able to:",
+              "source": "@site/docs/front-matter/outcomes.md",
+              "sourceDirName": "front-matter",
+              "slug": "/front-matter/outcomes",
+              "permalink": "/physical-ai-textbook/docs/front-matter/outcomes",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "motivation",
+                "permalink": "/physical-ai-textbook/docs/front-matter/motivation"
+              },
+              "next": {
+                "title": "roadmap",
+                "permalink": "/physical-ai-textbook/docs/front-matter/roadmap"
+              }
+            },
+            {
+              "id": "front-matter/README",
+              "title": "README",
+              "description": "Overview",
+              "source": "@site/docs/front-matter/README.md",
+              "sourceDirName": "front-matter",
+              "slug": "/front-matter/",
+              "permalink": "/physical-ai-textbook/docs/front-matter/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "id": "front-matter/roadmap",
+              "title": "roadmap",
+              "description": "Course Structure",
+              "source": "@site/docs/front-matter/roadmap.md",
+              "sourceDirName": "front-matter",
+              "slug": "/front-matter/roadmap",
+              "permalink": "/physical-ai-textbook/docs/front-matter/roadmap",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "outcomes",
+                "permalink": "/physical-ai-textbook/docs/front-matter/outcomes"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-1/"
+              }
+            },
+            {
+              "id": "module-1/chapter-1/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-1/chapter-1/index.md",
+              "sourceDirName": "module-1/chapter-1",
+              "slug": "/module-1/chapter-1/",
+              "permalink": "/physical-ai-textbook/docs/module-1/chapter-1/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-1/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-1/chapter-2/"
+              }
+            },
+            {
+              "id": "module-1/chapter-2/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-1/chapter-2/index.md",
+              "sourceDirName": "module-1/chapter-2",
+              "slug": "/module-1/chapter-2/",
+              "permalink": "/physical-ai-textbook/docs/module-1/chapter-2/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-1/chapter-1/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-1/chapter-3/"
+              }
+            },
+            {
+              "id": "module-1/chapter-3/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-1/chapter-3/index.md",
+              "sourceDirName": "module-1/chapter-3",
+              "slug": "/module-1/chapter-3/",
+              "permalink": "/physical-ai-textbook/docs/module-1/chapter-3/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-1/chapter-2/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-2/"
+              }
+            },
+            {
+              "id": "module-1/index",
+              "title": "index",
+              "description": "This module covers the fundamentals of the robotic nervous system using ROS 2.",
+              "source": "@site/docs/module-1/index.md",
+              "sourceDirName": "module-1",
+              "slug": "/module-1/",
+              "permalink": "/physical-ai-textbook/docs/module-1/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "roadmap",
+                "permalink": "/physical-ai-textbook/docs/front-matter/roadmap"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-1/chapter-1/"
+              }
+            },
+            {
+              "id": "module-2/chapter-1/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-2/chapter-1/index.md",
+              "sourceDirName": "module-2/chapter-1",
+              "slug": "/module-2/chapter-1/",
+              "permalink": "/physical-ai-textbook/docs/module-2/chapter-1/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-2/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-2/chapter-2/"
+              }
+            },
+            {
+              "id": "module-2/chapter-2/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-2/chapter-2/index.md",
+              "sourceDirName": "module-2/chapter-2",
+              "slug": "/module-2/chapter-2/",
+              "permalink": "/physical-ai-textbook/docs/module-2/chapter-2/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-2/chapter-1/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-2/chapter-3/"
+              }
+            },
+            {
+              "id": "module-2/chapter-3/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-2/chapter-3/index.md",
+              "sourceDirName": "module-2/chapter-3",
+              "slug": "/module-2/chapter-3/",
+              "permalink": "/physical-ai-textbook/docs/module-2/chapter-3/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-2/chapter-2/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-3/"
+              }
+            },
+            {
+              "id": "module-2/index",
+              "title": "index",
+              "description": "This module explores digital twin technologies for robotics using Gazebo and Unity.",
+              "source": "@site/docs/module-2/index.md",
+              "sourceDirName": "module-2",
+              "slug": "/module-2/",
+              "permalink": "/physical-ai-textbook/docs/module-2/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-1/chapter-3/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-2/chapter-1/"
+              }
+            },
+            {
+              "id": "module-3/chapter-1/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-3/chapter-1/index.md",
+              "sourceDirName": "module-3/chapter-1",
+              "slug": "/module-3/chapter-1/",
+              "permalink": "/physical-ai-textbook/docs/module-3/chapter-1/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-3/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-3/chapter-2/"
+              }
+            },
+            {
+              "id": "module-3/chapter-2/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-3/chapter-2/index.md",
+              "sourceDirName": "module-3/chapter-2",
+              "slug": "/module-3/chapter-2/",
+              "permalink": "/physical-ai-textbook/docs/module-3/chapter-2/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-3/chapter-1/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-3/chapter-3/"
+              }
+            },
+            {
+              "id": "module-3/chapter-3/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-3/chapter-3/index.md",
+              "sourceDirName": "module-3/chapter-3",
+              "slug": "/module-3/chapter-3/",
+              "permalink": "/physical-ai-textbook/docs/module-3/chapter-3/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-3/chapter-2/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-4/"
+              }
+            },
+            {
+              "id": "module-3/index",
+              "title": "index",
+              "description": "This module covers the AI-powered brain of the robot using NVIDIA Isaac platforms.",
+              "source": "@site/docs/module-3/index.md",
+              "sourceDirName": "module-3",
+              "slug": "/module-3/",
+              "permalink": "/physical-ai-textbook/docs/module-3/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-2/chapter-3/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-3/chapter-1/"
+              }
+            },
+            {
+              "id": "module-4/chapter-1/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-4/chapter-1/index.md",
+              "sourceDirName": "module-4/chapter-1",
+              "slug": "/module-4/chapter-1/",
+              "permalink": "/physical-ai-textbook/docs/module-4/chapter-1/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-4/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-4/chapter-2/"
+              }
+            },
+            {
+              "id": "module-4/chapter-2/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-4/chapter-2/index.md",
+              "sourceDirName": "module-4/chapter-2",
+              "slug": "/module-4/chapter-2/",
+              "permalink": "/physical-ai-textbook/docs/module-4/chapter-2/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-4/chapter-1/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-4/chapter-3/"
+              }
+            },
+            {
+              "id": "module-4/chapter-3/index",
+              "title": "index",
+              "description": "Learning Objectives",
+              "source": "@site/docs/module-4/chapter-3/index.md",
+              "sourceDirName": "module-4/chapter-3",
+              "slug": "/module-4/chapter-3/",
+              "permalink": "/physical-ai-textbook/docs/module-4/chapter-3/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-4/chapter-2/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/capstone/"
+              }
+            },
+            {
+              "id": "module-4/index",
+              "title": "index",
+              "description": "This module focuses on Vision-Language-Action systems for complex robotic behaviors.",
+              "source": "@site/docs/module-4/index.md",
+              "sourceDirName": "module-4",
+              "slug": "/module-4/",
+              "permalink": "/physical-ai-textbook/docs/module-4/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-3/chapter-3/"
+              },
+              "next": {
+                "title": "index",
+                "permalink": "/physical-ai-textbook/docs/module-4/chapter-1/"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "Front Matter",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "front-matter/index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-matter/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-matter/motivation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-matter/outcomes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-matter/roadmap"
+                  }
+                ],
+                "collapsed": false,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 1: Robotic Nervous System (ROS 2)",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module-1/index"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 1: ROS 2 Architecture",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-1/chapter-1/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 2: Nodes, Topics, Services, and Actions",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-1/chapter-2/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 3: Python rclpy, URDF Modeling, and Package & Launch Workflows",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-1/chapter-3/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": false,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 2: Digital Twin (Gazebo & Unity)",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module-2/index"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 1: Physics Simulation",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-2/chapter-1/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 2: Sensor Simulation",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-2/chapter-2/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 3: Unity Visualization & HRI",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-2/chapter-3/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 3: AI-Robot Brain (NVIDIA Isaac)",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module-3/index"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 1: Isaac Sim Setup",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-3/chapter-1/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 2: ROS Pipelines for Perception/VSLAM",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-3/chapter-2/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 3: Hardware-Accelerated Navigation",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-3/chapter-3/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Module 4: Vision-Language-Action (VLA)",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module-4/index"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 1: LLMs in Robotics",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-4/chapter-1/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 2: Voice-to-Action Systems",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-4/chapter-2/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Chapter 3: Multi-modal Perception",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "module-4/chapter-3/index"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "doc",
+                "id": "capstone/index",
+                "label": "Capstone: Autonomous Humanoid Robot",
+                "translatable": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": []
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-theme-search-algolia": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

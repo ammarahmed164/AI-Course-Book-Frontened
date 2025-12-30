@@ -1,0 +1,19 @@
+{
+  "id": "front-matter/index",
+  "title": "index",
+  "description": "Welcome to the front matter section of the Physical AI & Humanoid Robotics Textbook.",
+  "source": "@site/docs/front-matter/index.md",
+  "sourceDirName": "front-matter",
+  "slug": "/front-matter/",
+  "permalink": "/physical-ai-textbook/docs/front-matter/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "intro",
+    "permalink": "/physical-ai-textbook/docs/front-matter/intro"
+  }
+}

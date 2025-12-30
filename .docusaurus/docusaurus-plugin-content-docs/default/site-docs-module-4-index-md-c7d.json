@@ -1,0 +1,27 @@
+{
+  "id": "module-4/index",
+  "title": "index",
+  "description": "This module focuses on Vision-Language-Action systems for complex robotic behaviors.",
+  "source": "@site/docs/module-4/index.md",
+  "sourceDirName": "module-4",
+  "slug": "/module-4/",
+  "permalink": "/physical-ai-textbook/docs/module-4/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-organization/your-repo/edit/main/docs/module-4/index.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "index",
+    "permalink": "/physical-ai-textbook/docs/module-3/chapter-3/"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/physical-ai-textbook/docs/module-4/chapter-1/"
+  }
+}

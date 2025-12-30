@@ -1,0 +1,14 @@
+{
+  "id": "front-matter/README",
+  "title": "README",
+  "description": "Overview",
+  "source": "@site/docs/front-matter/README.md",
+  "sourceDirName": "front-matter",
+  "slug": "/front-matter/",
+  "permalink": "/physical-ai-textbook/docs/front-matter/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

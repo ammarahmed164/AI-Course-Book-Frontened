@@ -1,0 +1,23 @@
+{
+  "id": "front-matter/motivation",
+  "title": "motivation",
+  "description": "The Limitations of Digital-Only AI",
+  "source": "@site/docs/front-matter/motivation.md",
+  "sourceDirName": "front-matter",
+  "slug": "/front-matter/motivation",
+  "permalink": "/physical-ai-textbook/docs/front-matter/motivation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "intro",
+    "permalink": "/physical-ai-textbook/docs/front-matter/intro"
+  },
+  "next": {
+    "title": "outcomes",
+    "permalink": "/physical-ai-textbook/docs/front-matter/outcomes"
+  }
+}

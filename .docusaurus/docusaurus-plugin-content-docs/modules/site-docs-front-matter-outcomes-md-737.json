@@ -1,0 +1,23 @@
+{
+  "id": "front-matter/outcomes",
+  "title": "outcomes",
+  "description": "By completing this textbook, you will be able to:",
+  "source": "@site/docs/front-matter/outcomes.md",
+  "sourceDirName": "front-matter",
+  "slug": "/front-matter/outcomes",
+  "permalink": "/physical-ai-textbook/docs/front-matter/outcomes",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "motivation",
+    "permalink": "/physical-ai-textbook/docs/front-matter/motivation"
+  },
+  "next": {
+    "title": "roadmap",
+    "permalink": "/physical-ai-textbook/docs/front-matter/roadmap"
+  }
+}

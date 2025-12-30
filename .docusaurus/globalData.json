@@ -1,0 +1,280 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/physical-ai-textbook/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/physical-ai-textbook/docs",
+          "mainDocId": "front-matter/index",
+          "docs": [
+            {
+              "id": "capstone/index",
+              "path": "/physical-ai-textbook/docs/capstone/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-matter/index",
+              "path": "/physical-ai-textbook/docs/front-matter/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-matter/intro",
+              "path": "/physical-ai-textbook/docs/front-matter/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-matter/motivation",
+              "path": "/physical-ai-textbook/docs/front-matter/motivation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-matter/outcomes",
+              "path": "/physical-ai-textbook/docs/front-matter/outcomes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-matter/README",
+              "path": "/physical-ai-textbook/docs/front-matter/"
+            },
+            {
+              "id": "front-matter/roadmap",
+              "path": "/physical-ai-textbook/docs/front-matter/roadmap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/chapter-1/index",
+              "path": "/physical-ai-textbook/docs/module-1/chapter-1/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/chapter-2/index",
+              "path": "/physical-ai-textbook/docs/module-1/chapter-2/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/chapter-3/index",
+              "path": "/physical-ai-textbook/docs/module-1/chapter-3/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/index",
+              "path": "/physical-ai-textbook/docs/module-1/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/chapter-1/index",
+              "path": "/physical-ai-textbook/docs/module-2/chapter-1/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/chapter-2/index",
+              "path": "/physical-ai-textbook/docs/module-2/chapter-2/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/chapter-3/index",
+              "path": "/physical-ai-textbook/docs/module-2/chapter-3/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/index",
+              "path": "/physical-ai-textbook/docs/module-2/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/chapter-1/index",
+              "path": "/physical-ai-textbook/docs/module-3/chapter-1/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/chapter-2/index",
+              "path": "/physical-ai-textbook/docs/module-3/chapter-2/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/chapter-3/index",
+              "path": "/physical-ai-textbook/docs/module-3/chapter-3/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/index",
+              "path": "/physical-ai-textbook/docs/module-3/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/chapter-1/index",
+              "path": "/physical-ai-textbook/docs/module-4/chapter-1/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/chapter-2/index",
+              "path": "/physical-ai-textbook/docs/module-4/chapter-2/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/chapter-3/index",
+              "path": "/physical-ai-textbook/docs/module-4/chapter-3/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/index",
+              "path": "/physical-ai-textbook/docs/module-4/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/physical-ai-textbook/docs/front-matter/",
+                "label": "front-matter/index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "modules": {
+      "path": "/physical-ai-textbook/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/physical-ai-textbook/docs",
+          "mainDocId": "front-matter/index",
+          "docs": [
+            {
+              "id": "capstone/index",
+              "path": "/physical-ai-textbook/docs/capstone/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-matter/index",
+              "path": "/physical-ai-textbook/docs/front-matter/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-matter/intro",
+              "path": "/physical-ai-textbook/docs/front-matter/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-matter/motivation",
+              "path": "/physical-ai-textbook/docs/front-matter/motivation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-matter/outcomes",
+              "path": "/physical-ai-textbook/docs/front-matter/outcomes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-matter/README",
+              "path": "/physical-ai-textbook/docs/front-matter/"
+            },
+            {
+              "id": "front-matter/roadmap",
+              "path": "/physical-ai-textbook/docs/front-matter/roadmap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/chapter-1/index",
+              "path": "/physical-ai-textbook/docs/module-1/chapter-1/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/chapter-2/index",
+              "path": "/physical-ai-textbook/docs/module-1/chapter-2/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/chapter-3/index",
+              "path": "/physical-ai-textbook/docs/module-1/chapter-3/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/index",
+              "path": "/physical-ai-textbook/docs/module-1/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/chapter-1/index",
+              "path": "/physical-ai-textbook/docs/module-2/chapter-1/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/chapter-2/index",
+              "path": "/physical-ai-textbook/docs/module-2/chapter-2/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/chapter-3/index",
+              "path": "/physical-ai-textbook/docs/module-2/chapter-3/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/index",
+              "path": "/physical-ai-textbook/docs/module-2/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/chapter-1/index",
+              "path": "/physical-ai-textbook/docs/module-3/chapter-1/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/chapter-2/index",
+              "path": "/physical-ai-textbook/docs/module-3/chapter-2/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/chapter-3/index",
+              "path": "/physical-ai-textbook/docs/module-3/chapter-3/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/index",
+              "path": "/physical-ai-textbook/docs/module-3/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/chapter-1/index",
+              "path": "/physical-ai-textbook/docs/module-4/chapter-1/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/chapter-2/index",
+              "path": "/physical-ai-textbook/docs/module-4/chapter-2/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/chapter-3/index",
+              "path": "/physical-ai-textbook/docs/module-4/chapter-3/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/index",
+              "path": "/physical-ai-textbook/docs/module-4/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/physical-ai-textbook/docs/front-matter/",
+                "label": "front-matter/index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

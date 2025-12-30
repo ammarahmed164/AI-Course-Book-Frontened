@@ -1,0 +1,23 @@
+{
+  "id": "module-2/index",
+  "title": "index",
+  "description": "This module explores digital twin technologies for robotics using Gazebo and Unity.",
+  "source": "@site/docs/module-2/index.md",
+  "sourceDirName": "module-2",
+  "slug": "/module-2/",
+  "permalink": "/physical-ai-textbook/docs/module-2/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "index",
+    "permalink": "/physical-ai-textbook/docs/module-1/chapter-3/"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/physical-ai-textbook/docs/module-2/chapter-1/"
+  }
+}

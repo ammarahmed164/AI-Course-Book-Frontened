@@ -1,0 +1,32 @@
+.textbookContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.textbookTitle {
+  color: var(--ifm-color-primary);
+  border-bottom: 2px solid var(--ifm-color-primary);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.learningObjectives {
+  background-color: #f0f8ff;
+  border-left: 4px solid var(--ifm-color-primary);
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
+
+.learningObjectives h4 {
+  margin-top: 0;
+  color: var(--ifm-color-primary);
+}
+
+.learningObjectives ul {
+  margin-bottom: 0;
+}
+
+.textbookContent {
+  margin-top: 1.5rem;
+}

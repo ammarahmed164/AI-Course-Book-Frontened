@@ -11,7 +11,10 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "Frontend/my-website/build/$1"
+      "dest": "/index.html",
+      "headers": {
+        "Cache-Control": "public, max-age=0"
+      }
     }
   ],
   "framework": "docusaurus",

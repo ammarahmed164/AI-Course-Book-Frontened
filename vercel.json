@@ -1,0 +1,22 @@
+{
+  "builds": [
+    {
+      "src": "Frontend/my-website/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "Frontend/my-website/build/$1"
+    }
+  ],
+  "framework": "docusaurus",
+  "outputDirectory": "Frontend/my-website/build",
+  "installCommand": "cd Frontend/my-website && npm install",
+  "buildCommand": "cd Frontend/my-website && npm run build",
+  "devCommand": "cd Frontend/my-website && npm run start"
+}

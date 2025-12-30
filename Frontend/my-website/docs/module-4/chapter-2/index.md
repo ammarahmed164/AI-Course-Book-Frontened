@@ -1,9 +1,6 @@
-```text
 # Chapter 2: Voice-to-Action Systems with OpenAI Whisper
 
-```
 ## Learning Objectives
-```
 
 After completing this chapter, you will be able to:
 - Implement voice command recognition using OpenAI Whisper
@@ -12,14 +9,10 @@ After completing this chapter, you will be able to:
 - Handle real-time voice processing and command mapping
 - Optimize voice recognition for robotics applications
 
-```text
 ## Introduction to Voice Commands in Robotics
 
-```python
-```
 Voice commands provide a natural and intuitive interface for human-robot interaction. With the advancement of automatic speech recognition (ASR) technologies like OpenAI Whisper, robots can now understand and execute spoken commands with high accuracy.
 
-```
 ### Benefits of Voice Commands
 - Natural interaction without physical interfaces
 - Hands-free operation
@@ -47,259 +40,129 @@ pip install soundfile  # For audio file processing
 ### Basic Whisper Integration
 
 ```python
-```javascript
-import 
-```whisper
-```
-```
-```python
-```javascript
-import 
-```rclpy
-```
-```
-```python
+import whisper
+import rclpy
 from rclpy.node import Node
-```
-```
-```python
 from std_msgs.msg import String
-```
-```
-```python
-```javascript
-import 
-```pyaudio
-```
-```
-```python
-```javascript
-import 
-```wave
-```
-```
-```python
-```javascript
-import 
-```tempfile
-```
-```
-```python
-```javascript
-import 
-```os
+import pyaudio
+import wave
+import tempfile
+import os
 
-```
-```
 class VoiceToActionNode(Node):
     def __init__(self):
-```
         super().__init__('voice_to_action_node')
-        
-```
-```
-```
+
         # Load Whisper model (this can be done at different sizes: tiny, base, small, medium, large)
-```
         self.get_logger().info("Loading Whisper model...")
         self.model = whisper.load_model("base")  # Choose size based on performance needs
-        
-```
+
         # Publishers and subscribers
-```python
         self.speech_command_pub = self.create_publisher(
-```
             String,
             '/robot/speech_command',
             10
         )
-        
+
         # Audio configuration
         self.audio_format = pyaudio.paInt16
         self.channels = 1
         self.rate = 16000  # Whisper expects 16kHz
         self.chunk = 1024
         self.record_seconds = 5
-        
+
         # Start voice recognition
-```python
         self.p = pyaudio.PyAudio()
-        
+
         self.get_logger().info("Voice-to-Action node initialized")
 
-```python
     def start_voice_recognition(self):
-```
-```
-```
         """Begin listening for voice commands."""
-```python
-```
         self.get_logger().info("Starting voice recognition...")
-        
-```python
+
         while rclpy.ok():
             try:
-```
-```
                 # Record audio from microphone
-```python
                 frames = []
-                
+
                 stream = self.p.open(
-```
                     format=self.audio_format,
                     channels=self.channels,
                     rate=self.rate,
                     input=True,
                     frames_per_buffer=self.chunk
-```
-```
                 )
-                
-```python
+
                 self.get_logger().info("Listening... Speak now.")
-                
-```python
+
                 for _ in range(0, int(self.rate / self.chunk * self.record_seconds)):
-```text
                     data = stream.read(self.chunk)
-```
-```
-```
-```
                     frames.append(data)
-                
-```
+
                 # Stop recording
-```python
                 stream.stop_stream()
                 stream.close()
-                
-```
+
                 # Save audio to temporary file
-```python
                 with tempfile.NamedTemporaryFile(suffix='.wav', delete=False) as tmp_file:
                     wf = wave.open(tmp_file.name, 'wb')
-```
-```
-```
                     wf.setnchannels(self.channels)
                     wf.setsampwidth(self.p.get_sample_size(self.audio_format))
                     wf.setframerate(self.rate)
                     wf.writeframes(b''.join(frames))
                     wf.close()
-                    
-```
-                    # Transcribe using Whisper
-```python
-                    result = self.model.transcribe(tmp_file.name)
-                    
-```
-```
-```
-                    # Clean up temp file
-```python
-```
-                    os.unlink(tmp_file.name)
-                
-```
-                # Process the transcribed text
-```python
-                if result['text'].strip():
-```
-```
-```
-                    self.process_voice_command(result['text'].strip())
-                    
-```python
-            except Exception as e:
-```
-```
-```
-```
-                self.get_logger().error(f"Error in voice recognition: `e`")
 
-```python
+                    # Transcribe using Whisper
+                    result = self.model.transcribe(tmp_file.name)
+
+                    # Clean up temp file
+                    os.unlink(tmp_file.name)
+
+                # Process the transcribed text
+                if result['text'].strip():
+                    self.process_voice_command(result['text'].strip())
+
+            except Exception as e:
+                self.get_logger().error(f"Error in voice recognition: {e}")
+
     def process_voice_command(self, text):
-```
-```
-```
         """Process transcribed text and generate appropriate command."""
-```python
-```
         self.get_logger().info(f"Recognized: {text}")
-        
-```
+
         # Publish command to robot system
-```python
         cmd_msg = String()
-```
-```
-```
-```
         cmd_msg.data = text
-```python
         self.speech_command_pub.publish(cmd_msg)
 
-```python
-```text
-def main
-```(args=None):
-```
-```
+def main(args=None):
     rclpy.init(args=args)
-```python
     node = VoiceToActionNode()
-    
+
     try:
-```
-```
         # Start voice recognition in a separate thread to keep ROS2 spinning
-```python
         import threading
-```
-```
         voice_thread = threading.Thread(target=node.start_voice_recognition)
-```
-```
-```
-```
         voice_thread.daemon = True
-```python
         voice_thread.start()
-        
+
         rclpy.spin(node)
-        
-```python
+
     except KeyboardInterrupt:
-```
-```
-```
         pass
-```python
     finally:
-```
         node.p.terminate()
         node.destroy_node()
         rclpy.shutdown()
 
-```python
 if __name__ == '__main__':
-```
     main()
+```
 
-```
-```
-```
 ## Summary
-```
 
 Voice commands provide a natural and intuitive interface for human-robot interaction. With the advancement of automatic speech recognition technologies like OpenAI Whisper, robots can now understand and execute spoken commands with high accuracy, enabling more accessible and efficient human-robot collaboration.
 
-```text
 ## Diagrams and Visual Aids
-```
 
 ![Voice Command Architecture](/img/voice-command-arch.png)
 
